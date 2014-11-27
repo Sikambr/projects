@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project name="Sikambr's projects since 23.11.2014" basedir="."
+	xmlns:if="ant:if"
+	xmlns:unless="ant:unless">
+
+	<target name="build">
+		<echo>*</echo>
+		<echo>* ${ant.file}</echo>
+		<echo>*</echo>
+		<exec executable="jekyll.bat">
+			<arg value="build"/>
+		</exec>
+	</target>
+
+	<target name="serve">
+		<echo>*</echo>
+		<echo>* ${ant.file}</echo>
+		<echo>*</echo>
+		<exec executable="cmd.exe">
+			<arg value="/C"/>
+			<arg value="start"/>
+			<arg value="jekyll.bat"/>
+			<arg value="serve"/>
+			<arg value="--baseurl"/>
+			<arg value="''"/>
+		</exec>
+	</target>
+
+	<target name="server" depends="serve"/>
+
+	<target name="url-local">
+		<echo>*</echo>
+		<echo>* ${ant.file}</echo>
+		<echo>*</echo>
+		<exec executable="cmd.exe">
+			<arg value="/C"/>
+			<arg value="start"/>
+			<arg value="http://localhost:4000"/>
+		</exec>
+	</target>
+
+	<target name="url-remote">
+		<echo>*</echo>
+		<echo>* ${ant.file}</echo>
+		<echo>*</echo>
+		<exec executable="cmd.exe">
+			<arg value="/C"/>
+			<arg value="start"/>
+			<arg value="http://sikambr.github.io/projects"/>
+		</exec>
+	</target>
+
+	<target name="git-init">
+		<echo>*</echo>
+		<echo>* ${ant.file}</echo>
+		<echo>*</echo>
+
+		<exec executable="git.exe">
+			<arg value="init"/>
+		</exec>
+
+		<exec executable="git.exe">
+			<arg value="add"/>
+			<arg value="."/>
+		</exec>
+
+		<exec executable="git.exe">
+			<arg value="commit"/>
+			<arg value="-m"/>
+			<arg value="first commit"/>
+		</exec>
+
+		<exec executable="git.exe">
+			<arg value="remote"/>
+			<arg value="add"/>
+			<arg value="origin"/>
+			<arg value="https://github.com/Sikambr/projects.git"/>
+		</exec>
+
+		<exec executable="git.exe">
+			<arg value="branch"/>
+			<arg value="gh-pages"/>
+		</exec>
+
+		<exec executable="git.exe">
+			<arg value="checkout"/>
+			<arg value="gh-pages"/>
+		</exec>
+
+		<exec executable="git.exe">
+			<arg value="push"/>
+			<arg value="-u"/>
+			<arg value="origin"/>
+			<arg value="gh-pages"/>
+		</exec>
+
+	</target>
+
+	<target name="git-push">
+
+		<echo>*</echo>
+		<echo>* ${ant.file}</echo>
+		<echo>*</echo>
+
+		<exec executable="git.exe">
+			<arg value="add"/>
+			<arg value="."/>
+		</exec>
+
+		<exec executable="git.exe">
+			<arg value="commit"/>
+			<arg value="-m"/>
+			<arg value="publishing"/>
+		</exec>
+
+		<exec executable="git.exe">
+			<arg value="push"/>
+			<arg value="-u"/>
+			<arg value="origin"/>
+			<arg value="gh-pages"/>
+		</exec>
+
+	</target>
+
+	
+</project>

@@ -1,0 +1,28 @@
+# Site settings
+title: Мои проекты
+email: sikambr.developer@gmail.com
+
+#description: > # this means to ignore newlines until "baseurl:"
+#  Write an awesome description for your new site here. You can edit this
+#  line in _config.yml. It will appear in your document head meta (for
+#  Google search results) and in your feed.xml site description.
+
+baseurl: "/projects" # the subpath of your site, e.g. /blog/
+url: "http://sikambr.github.io" # the base hostname & protocol for your site
+
+#twitter_username: jekyllrb
+github_username:  Sikambr
+
+# Build settings
+markdown: kramdown
+
+# Added by Sikambr
+highlighter: true
+# else 
+# Jekyll build failed: Liquid Exception: cannot load such file — yajl
+# http://stackoverflow.com/questions/20448202/jekyll-build-failed-liquid-exception-cannot-load-such-file-yajl
+# I did following
+# gem install rouge
+# and then added following line in the _config.yml
+# highlighter: rouge
+# I found this solution from following page's last comment https://github.com/jekyll/jekyll-help/issues/50
