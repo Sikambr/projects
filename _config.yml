@@ -17,7 +17,7 @@ github_username:  Sikambr
 markdown: kramdown
 
 # Added by Sikambr
-highlighter: true
+# highlighter: true
 # else 
 # Jekyll build failed: Liquid Exception: cannot load such file — yajl
 # http://stackoverflow.com/questions/20448202/jekyll-build-failed-liquid-exception-cannot-load-such-file-yajl
