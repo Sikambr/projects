@@ -30,12 +30,12 @@ permalink: /quotex/
 * Просмотр результатов тестирования с возможностью быстрого просмотра не графике.
 * Фильтрация, сортировка и группировка результатов тестирования с возможностью копирования в буфер обмена.
 
-### Downloads
+### Скачать
 
 * [QuotexDemo.zip](https://docs.google.com/uc?authuser=0&id=0B1nIE1BTDG6zT3ZmXzVxS1NIaGc&export=download) (14MB)
 * [QuotexSkins.zip](https://docs.google.com/uc?authuser=0&id=0B1nIE1BTDG6zd1ZlaklLSFZXc2s&export=download) (5MB)
 
-### Screenshots
+### Скриншоты
 
 #### Chart
 ![Chart]({{ site.baseurl }}/images/quotex-chart.jpg)
