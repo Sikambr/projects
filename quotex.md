@@ -4,33 +4,31 @@ title: Quotex
 permalink: /quotex/
 ---
 
-The program for creating and testing trading strategies.
+Программа для создания и тестирования торговых стратегий.
 
-### Features
+### Основные возможности
 
-* View graphs at the same time different time-frames.
-* View graphs at the same time different characters.
-* Flexible configuration for connection of quotations that are stored in ASCII-files
-* Specifying the color for the bar
-* Creating their own indicators in Pascal
-* Built-in indicators - Accum, MA, SMA, EMA, WMA, AccDist, ADX, ATR, CCI, MACD, MFI, OBV, PO, ROC, RSI, AveDev, StDev, HV, StochK, StochD
-* Object TreeView - tree structure of components of the program
-* Object Inspector - view and edit the properties of the components of the program
-* Drag and drop any components of the program
-* Copy all listings to clipboard and subsequent paste o Microsoft Excel
-* Copy charts to clipboard and subsequent paste o any image editor
+* Просмотр и связывание графиков с разными тайм-фреймами.
+* Возможность подключения котировок из ASCII-файлов.
+* Создание индикаторов, фильтров, событий на язфыке Pascal.
+* Встроенные индикаторы: Accum, MA, SMA, EMA, WMA, AccDist, ADX, ATR, CCI, MACD, MFI, OBV, PO, ROC, RSI, AveDev, StDev, HV, StochK, StochD
+* Древовидная структура проектоа (setup, chart) - Object TreeView.
+* Изменение свойств объектов в Object Inspector.
+* Поддержка drag-and-drop для объектов в дереве и на графике.
+* Копирование данных графика в буфер обмена с возможностью вставки в Microsoft Excel.
+* Копирование самих графиков в буфер обмена.
 
-### Opportunities for testing strategies
+### Возможности для тестирования стратегий
 
-* Connection indexes, such as QQQQ, SPX, DJI and etc.
-* Accounting Commission
-* Setting a specific time period
-* Assignment of multiple sources of quotations
-* Parameters settings
-* Writing filters in Pascal
-* Specifying custom columns for subsequent output to the test results
-* View the test results, quickly moving to chart
-* Filtering, sorting and grouping of test results
+* Указание комиссии и спреда.
+* Указание периодов тестирования.
+* Подключение новостей.
+* Подключение индексов, например, QQQQ, SPX, DJI and etc.
+* Параметры тестирования.
+* Написание фильтров, событий, триггеров на языке Pascal.
+* Задание специфичных колонок для отражения их в результатах тестирования.
+* Просмотр результатов тестирования с возможностью быстрого просмотра не графике.
+* Фильтрация, сортировка и группировка результатов тестирования с возможностью копирования в буфер обмена.
 
 ### Downloads
 
