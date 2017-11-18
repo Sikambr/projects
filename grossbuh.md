@@ -8,4 +8,6 @@ permalink: /grossbuh/
 
 Cистема предназначена для учета движения товаров в частных предприятиях, включая грузовые таможенные декларации.
 
+[GrossbuhDemo.zip](https://drive.google.com/uc?id=1NRoorwJUx91Ko6c3lcjbS3jpbbJt-xg_&export=download) (9MB)
+
 ![{{ page.title }}]({{ site.baseurl }}/images/grossbuh.gif)
