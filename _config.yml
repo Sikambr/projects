@@ -13,7 +13,8 @@ url: "http://sikambr.github.io" # the base hostname & protocol for your site
 #twitter_username: jekyllrb
 github_username:  Sikambr
 
-resume_url: "https://drive.google.com/file/d/0B1nIE1BTDG6zTm1OYk1SRmgtOWc/view?usp=sharing"
+#resume_url: "https://drive.google.com/file/d/0B1nIE1BTDG6zTm1OYk1SRmgtOWc/view?usp=sharing"
+resume_url: "https://drive.google.com/file/d/1lhobNUfPbuDBU9IPinwbe0yTv-YFJ3Za/view?usp=sharing"
 
 # Build settings
 markdown: kramdown
