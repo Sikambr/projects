@@ -18,7 +18,7 @@ permalink: /exporttodbf/
 
 ### Используемые дополнительные библиотеки:
 
-* interclient.jar – Interbase JDBC драйвер
+* [interclient.jar](https://github.com/ForNeVeR/interclient) – Interbase JDBC драйвер
 * [ini4j.jar](http://ini4j.sourceforge.net/download.html) – библиотека для обработки Windows ini-файлов.
 
 ### Файлы для скачивания:
