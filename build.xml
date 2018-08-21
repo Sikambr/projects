@@ -103,20 +103,17 @@
 		<echo>* ${ant.file}</echo>
 		<echo>*</echo>
 
-    	<echo>git add</echo>
 		<exec executable="git.exe">
 			<arg value="add"/>
 			<arg value="."/>
 		</exec>
 
-    	<echo>git commit</echo>
 		<exec executable="git.exe">
 			<arg value="commit"/>
 			<arg value="-m"/>
 			<arg value="publishing"/>
 		</exec>
 
-    	<echo>git push</echo>
 		<exec executable="git.exe">
 			<arg value="push"/>
 			<arg value="-u"/>
