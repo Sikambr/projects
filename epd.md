@@ -12,7 +12,7 @@ permalink: /epd/
 
 40GB размер БД, 200 таблиц, 400 процедур, ~100 одновременно работающих пользователей.
 
-Ежегодно (с 2006), система проверяется аудиторской компанией [Делойт](http://www.deloitte.com/view/ru_KZ/kz/about/index.htm).
+Ежегодно (с 2006), система проверяется аудиторской компанией [Делойт](https://www2.deloitte.com/ru/ru.html).
 
 ![Абоненты]({{ site.baseurl }}/images/epd-rents-abons.jpg)
 
