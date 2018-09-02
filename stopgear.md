@@ -10,6 +10,8 @@ permalink: /stopgear/
 
 Не требует установки. Можно запускать из архива.
 
+В проекте реализован механизм загрузки правил и билетов из Internet. Далее, загруженные файлы парсятся, написанным на Java парсером, создаются Delphi-ресурсы, которые прикомпилируются к исполняемому файлу.
+
 * [StopGearRussia.zip](https://docs.google.com/uc?id=0B1nIE1BTDG6zUDhCTFZVVjNDaW8&export=download) (21MB, версия от 30.06.2015, билеты ПДД от 1 января 2015 года)
 * [StopGearKazakhstan.zip](https://docs.google.com/uc?id=0B1nIE1BTDG6zbWZ5XzZGekVCMVE&export=download) (7MB, версия от 05.09.2014)
 
