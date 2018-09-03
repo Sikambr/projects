@@ -51,6 +51,14 @@
 		</exec>
 	</target>
 
+	<target name="git-all">
+		<echo>*</echo>
+		<echo>* ${ant.file}</echo>
+		<echo>*</echo>
+		<antcall target="git-init"/>
+		<antcall target="git-push"/>
+	</target>
+
 	<target name="git-init">
 		<echo>*</echo>
 		<echo>* ${ant.file}</echo>
