@@ -32,8 +32,8 @@ permalink: /quotex/
 
 ### Скачать
 
-* [QuotexDemo.zip](https://docs.google.com/uc?authuser=0&id=0B1nIE1BTDG6zT3ZmXzVxS1NIaGc&export=download) (14MB)
-* [QuotexSkins.zip](https://docs.google.com/uc?authuser=0&id=0B1nIE1BTDG6zd1ZlaklLSFZXc2s&export=download) (5MB)
+* [QuotexDemo.zip](https://drive.google.com/file/d/0B1nIE1BTDG6zT3ZmXzVxS1NIaGc/view?usp=sharing&resourcekey=0-pUf1KrQZU3yemVtSobUKng) (14MB)
+* [QuotexSkins.zip](https://drive.google.com/file/d/0B1nIE1BTDG6zd1ZlaklLSFZXc2s/view?usp=sharing&resourcekey=0-a52lsr5ZhQEscq6JiLGwNQ) (5MB)
 
 ### Скриншоты
 
