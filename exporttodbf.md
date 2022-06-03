@@ -23,8 +23,8 @@ permalink: /exporttodbf/
 
 ### Файлы для скачивания:
 
-* [ExportToDBF.jar](https://docs.google.com/uc?authuser=0&id=0B1nIE1BTDG6zZHlRbWFRaHRhQmM&export=download)
-* [ExportToDBF-sources.zip](https://docs.google.com/uc?authuser=0&id=0B1nIE1BTDG6zeWZRc2I3TnIxNTg&export=download) - исходные коды.
-* [Rents.J.xml](https://drive.google.com/file/d/0B1nIE1BTDG6zNHdVVGlmb2JuOE0/view?usp=sharing) - пример файла-описателя источников и приемника.
+* [ExportToDBF.jar](https://drive.google.com/file/d/0B1nIE1BTDG6zZHlRbWFRaHRhQmM/view?usp=sharing&resourcekey=0-xTimr4XiwfoNU0vJUXmlQg)
+* [ExportToDBF-sources.zip](https://drive.google.com/file/d/0B1nIE1BTDG6zeWZRc2I3TnIxNTg/view?usp=sharing&resourcekey=0-zVAEKtWWdZ9zHJaeB_GONQ) - исходные коды.
+* [Rents.J.xml](https://drive.google.com/file/d/0B1nIE1BTDG6zNHdVVGlmb2JuOE0/view?usp=sharing&resourcekey=0-yE4tbHyDcSPryVT0_SK43A) - пример файла-описателя источников и приемника.
 
 ![{{ page.title }}]({{ site.baseurl }}/images/exporttodbf.jpg)
