@@ -4,7 +4,7 @@ title: Alarmius
 permalink: /alarmius/
 ---
 
-<b>2014-2018</b>, Android, SQLite
+<b>2014 - 2018</b>, Android, SQLite.
 
 Мультиязычный будильник для Android. Строковые ресурсы ([strings.xml]({{ site.baseurl }}/data/alarmius/strings.xml)) переведены на 40 языков, с помощь сервиса Google-translater.
 
