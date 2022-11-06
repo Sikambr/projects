@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--url=jdbc:subprotocol:subname
+	<jdbc drivers= subprotocol= subname= user= password= role=/>-->
+
+<export description="" useSwingWorker="0">
+
+	<sources>
+		<default>
+			<jdbc 
+				drivers="interbase.interclient.Driver"
+				subprotocol="interbase"
+				subname=""
+				user="GUEST"
+				password="guest"
+				roleName="readers"
+			/>
+		</default>
+		<source name="Города">
+			<jdbc subname="//ibmserver/D:/Borland/Data"/>
+			<queries>
+				<query>
+					<select>
+						<![CDATA[
+							select
+							  a.Res_Id,
+							  a.Account,
+							  a.Krab_Code,
+							  p.Calc_Period,
+							  p.Doc_Date, p.Pay_Date,
+							  p.Service_Id,
+							  p.Pay_Sum,
+							  pk.Payer_Kind_Id as Kind_Id,
+							  pk.Payer_Kind_Name as Kind_Name
+							from Abons a
+							  join Pays p on p.Res_Id = a.Res_Id and p.Account = a.Account
+							  join Payers pr on pr.Doc_Res_Id = p.Doc_Res_Id and pr.Payer_Id = p.Payer_Id
+							  join Payer_Kinds pk on pk.Payer_Kind_Id = pr.Payer_Kind_Id
+							where a.Person = 1
+							  /*and p.Calc_Period = :Calc_Period*/
+							  and p.Calc_Period >= '1.1.2013'
+							  and p.Res_Id = :Res_Id
+							  and p.Account < 0
+						]]>
+					</select>
+				</query>
+				<query>
+					<select>
+						<![CDATA[
+							select
+							  a.Res_Id,
+							  a.Account,
+							  a.Krab_Code,
+							  s.Calc_Period,
+							  s.Service_Id, s.Saldo_In,
+							  cast((coalesce(odn.Expense_Total, 0) +
+							    (select odn2.Recalc_Stair+odn2.Recalc_Lift
+							      from SYS$Get_ODN_Abon_Recalc_Recurse(s.Res_Id, a.House_Id, s.Account, s.Calc_Period, 0) odn2)) as integer) as Charge_Expense,
+							  s.Charge_Sum,
+							  s.Pay_Sum, s.Saldo_Out
+							from Abons a, Abon_Saldo s
+							  left join Odn_Abon_Periods odn
+							    on s.Service_Id = 7
+							    and odn.Res_Id = s.Res_Id
+							    and odn.Account = s.Account
+							    and odn.Calc_Period = s.Calc_Period
+							where a.Person = 1
+							  and s.Account < 0
+							  and s.Res_Id = a.Res_Id and s.Account = a.Account
+						]]>
+					</select>
+				</query>
+			</queries>
+			<databases>
+				<database res_id="1" name="Павлодар" file="Rents.ib"/>
+				<database res_id="3" name="Аксу" file="Rents_Aksu.ib"/>
+				<database res_id="4" name="Экибастуз" file="Rents_Ekibas.ib"/>
+			</databases>
+		</source>
+	</sources>
+
+	<targets>
+		<default folder="\\ORRSERVER\En_Soft\Rents.J\Results"/>
+		<target file="Rents_Pay_by_Period.dbf">
+			<fields>
+				<field name="RES_ID" type="N" len="6"/>
+				<field name="ACCOUNT" type="N" len="20"/>
+				<field name="KRAB_CODE" type="C" len="11"/>
+				<field name="CALC_PERIO" type="D"/>
+				<field name="DOC_DATE" type="D"/>
+				<field name="PAY_DATE" type="D"/>
+				<field name="SERVICE_ID" type="N" len="6"/>
+				<field name="PAY_SUM" type="N" len="15" dec="2"/>
+				<field name="KIND_ID" type="N" len="6"/>
+				<field name="KIND_NAME" type="C" len="15"/>
+			</fields>
+		</target>
+		<target file="Rents_Charge_by_Periods.dbf">
+			<fields>
+				<field name="RES_ID" type="N" len="6"/>
+				<field name="ACCOUNT" type="N" len="20"/>
+				<field name="KRAB_CODE" type="C" len="11"/>
+				<field name="CALC_PERIO" type="D" len="8"/>
+				<field name="SERVICE_ID" type="N" len="6"/>
+				<field name="SALDO_IN" type="N" len="15" dec="2"/>
+				<field name="CHARGE_EXP" type="N" len="20"/>
+				<field name="CHARGE_SUM" type="N" len="15" dec="2"/>
+				<field name="PAY_SUM" type="N" len="15" dec="2"/>
+				<field name="SALDO_OUT" type="N" len="15" dec="2"/>
+			</fields>
+		</target>
+	</targets>
+
+</export>
