@@ -6,9 +6,13 @@ permalink: /exporttodbf/
 
 <b>2014</b>, Java, JDBC.
 
-Приложение разработано для автоматизации экспорта из баз данных, описанных в [XML-файле]({{ site.baseurl }}/data/exporttodbf/Rents.J.xml), в dBase формат.
+Приложение разработано для автоматизации экспорта из баз данных, описанных в 
+[XML-файле](https://drive.google.com/file/d/0B1nIE1BTDG6zNHdVVGlmb2JuOE0/view?usp=share_link&resourcekey=0-yE4tbHyDcSPryVT0_SK43A)
+, в dBase формат.
 
-В [XML-файле]({{ site.baseurl }}/data/exporttodbf/Rents.J.xml) описываются как источники с запросами, так и структура файлов-приемников.
+В 
+[XML-файле](https://drive.google.com/file/d/0B1nIE1BTDG6zNHdVVGlmb2JuOE0/view?usp=share_link&resourcekey=0-yE4tbHyDcSPryVT0_SK43A)
+описываются как источники с запросами, так и структура файлов-приемников.
 
 Источником может быть любая база данных, для которой имеется JDBC драйвер.
 
@@ -25,6 +29,6 @@ permalink: /exporttodbf/
 
 * [ExportToDBF.jar](https://drive.google.com/file/d/0B1nIE1BTDG6zZHlRbWFRaHRhQmM/view?usp=sharing&resourcekey=0-xTimr4XiwfoNU0vJUXmlQg)
 * [ExportToDBF-sources.zip](https://drive.google.com/file/d/0B1nIE1BTDG6zeWZRc2I3TnIxNTg/view?usp=sharing&resourcekey=0-zVAEKtWWdZ9zHJaeB_GONQ) - исходные коды.
-* [Rents.J.xml]({{ site.baseurl }}/data/exporttodbf/Rents.J.xml) - пример файла-описателя источников и приемника.
+* [Rents.J.xml](https://drive.google.com/file/d/0B1nIE1BTDG6zNHdVVGlmb2JuOE0/view?usp=share_link&resourcekey=0-yE4tbHyDcSPryVT0_SK43A) - пример файла-описателя источников и приемника.
 
 ![{{ page.title }}]({{ site.baseurl }}/images/exporttodbf.jpg)
