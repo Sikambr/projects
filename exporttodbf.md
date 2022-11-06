@@ -6,7 +6,7 @@ permalink: /exporttodbf/
 
 <b>2014</b>, Java, JDBC.
 
-Приложение разработано для автоматизации экспорта из баз данных, описанных в XML-файле, в dBase формат.
+Приложение разработано для автоматизации экспорта из баз данных, описанных в [XML-файле](https://drive.google.com/file/d/0B1nIE1BTDG6zNHdVVGlmb2JuOE0/view?usp=sharing&resourcekey=0-yE4tbHyDcSPryVT0_SK43A), в dBase формат.
 
 В XML-файле описываются как источники с запросами, так и структура файлов-приемников.
 
