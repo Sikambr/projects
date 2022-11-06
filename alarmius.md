@@ -4,7 +4,9 @@ title: Alarmius
 permalink: /alarmius/
 ---
 
-Мультиязычный будильник для Android. Строковые ресурсы которого переведены на 40 языков, с помощь сервиса Google-translater. См. [strings.xml]({{ site.baseurl }}/data/alarmius/strings.xml).
+<b>2014-2018</b>, Android, SQLite
+
+Мультиязычный будильник для Android. Строковые ресурсы ([strings.xml]({{ site.baseurl }}/data/alarmius/strings.xml)) переведены на 40 языков, с помощь сервиса Google-translater.
 
 ### Ссылки
 * <a href="https://play.google.com/store/apps/details?id=com.gmail.sikambr.alarmius">Google Play</a>
