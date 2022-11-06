@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <string name="locale_code" lng-locale-code="true">en</string>
+    <string name="by_default" lng-for-trans="By default">Default</string>
+    <string name="demo_alarm_1">Get up!</string>
+    <string name="demo_alarm_2">The walk</string>
+    <!-- action -->
+    <string name="done" lng-apk="PackageInstaller" lng-bundle="sams-i9600-api-19">Done</string>
+    <string name="open" lng-for-trans="To open">Open</string>
+    <string name="close" lng-for-trans="To close">Close</string>
+    <string name="edit" lng-aname="extract_edit_menu_button" lng-bundle="android-19">Edit</string>
+    <string name="delete" lng-bundle="android-19">Delete</string>
+    <string name="restart">Restart</string>
+    <string name="skip_next">Skip 1 day</string>
+    <string name="shift">Shift</string>
+    <string name="delay" lng-aname="alarm_alert_snooze_text" lng-apk="DeskClock" lng-bundle="sams-i9600-api-19">Snooze</string>
+    <string name="lock" lng-aname="menu_lock" lng-apk="Mms" lng-bundle="sams-i9600-api-19">Lock</string>
+    <string name="unlock" lng-aname="menu_unlock" lng-apk="Mms" lng-bundle="sams-i9600-api-19">Unlock</string>
+    <string name="preview" lng-aname="preview" lng-apk="Browser" lng-bundle="sams-i9600-api-19">Preview</string>
+    <!-- titles -->
+    <string name="information">Information</string>
+    <string name="confirm">Confirmation</string>
+    <string name="error">Error</string>
+    <!-- period -->
+    <string name="day" lng-bundle="android-19" lng-value-ru="дн">day</string>
+    <string name="days" lng-bundle="android-19" lng-value-ru="дн">days</string>
+    <string name="hour" lng-bundle="android-19" lng-value-ru="ч">hour</string>
+    <string name="hours" lng-bundle="android-19" lng-value-ru="ч">hours</string>
+    <string name="minute" lng-bundle="android-19" lng-value-ru="мин">minute</string>
+    <string name="minutes" lng-bundle="android-19" lng-value-ru="мин">minutes</string>
+    <string name="second" lng-bundle="android-19" lng-value-ru="сек">second</string>
+    <string name="seconds" lng-bundle="android-19" lng-value-ru="сек">seconds</string>
+    <string name="today" lng-apk="Calendar" lng-bundle="sams-i9600-api-19">Today</string>
+    <string name="tomorrow" lng-apk="Calendar" lng-bundle="sams-i9600-api-19">Tomorrow</string>
+    <string name="today_at_time_fmt" lng-apk="Calendar" lng-bundle="sams-i9600-api-19">Today at %s</string>
+    <string name="tomorrow_at_time_fmt" lng-apk="Calendar" lng-bundle="sams-i9600-api-19">Tomorrow at %s</string>
+    <string name="date_time_fmt" lng-apk="Calendar" lng-bundle="sams-i9600-api-19" formatted="false">%s, %s</string>
+    <!-- public -->
+    <string name="name_label" lng-value-uk="Назва">Name</string>
+    <string name="untitled">untitled</string>
+    <string name="unlock_confirm">Unlock?</string>
+    <!-- template -->
+    <string name="template">Template</string>
+    <string name="save_as_template">Save as template</string>
+    <string name="save_as_template_confirm">Save as template?</string>
+    <!-- Repeat -->
+    <string name="repeat_category" lng-aname="alarm_repeat" lng-apk="DeskClock" lng-bundle="sams-i9600-api-19">Repeat</string>
+    <string name="repeat_no">No</string>
+    <string name="repeat_disposable">Disposable</string>
+    <string name="repeat_everyday">Every day</string>
+    <string name="repeat_everyweek">Every week</string>
+    <string name="repeat_everymonth">Every month</string>
+    <string name="repeat_schedule">In shifts</string>
+    <string name="schedule_workdays" lng-for-trans="Working days">Workdays</string>
+    <string name="schedule_holidays" lng-for-trans="Days off">Holidays</string>
+    <!-- Settings -->
+    <string name="language" lng-aname="phone_language" lng-apk="Settings" lng-bundle="sams-i9600-api-19">Language</string>
+    <string name="settings" lng-apk="DeskClock" lng-bundle="sams-i9600-api-19">Settings</string>
+    <string name="ignore_screen_rotation">Ignore screen rotation</string>
+    <string name="theme_holo" tools:ignore="MissingTranslation">Holo theme (needs to restart)</string>
+    <string name="show_tabs_menu">Show menu of tabs</string>
+    <string name="show_tabs_panel">Show panel of tabs</string>
+    <string name="ignore_silent_mode">Ignore silent mode</string>
+    <string name="status_bar" lng-aname="permlab_statusBarService" lng-bundle="android-19">Status bar</string>
+    <string name="settings_alarm_icon_in_statusbar_label">Show icon</string>
+    <string name="settings_alarm_notify_in_statusbar_label">Notification</string>
+    <string name="stop_or_snooze_category" lng-aname="alarm_notify_text" lng-apk="DeskClock" lng-bundle="sams-i9600-api-19">Snooze or dismiss alarm</string>
+    <string name="settings_alarm_shake_to_stop_label" lng-for-trans="Shake the device">Shake device</string>
+    <string name="settings_alarm_flip_to_stop_label">Turn upside-down</string>
+    <string name="settings_alarm_long_click_to_stop_label" lng-value-uk="Тривалий тап">Long tap</string>
+    <string name="settings_widget_category">Widgets</string>
+    <string name="settings_widget_transparency">Transparency</string>
+    <string name="settings_voice_category">Voice</string>
+    <string name="settings_voice_tts_engine">Engine</string>
+    <string name="settings_birthdays_notify_enabled">Notify</string>
+    <string name="settings_birthdays_notify_time">notification time</string>
+    <string name="settings_birthdays_notify_before_days">notify beforehand</string>
+    <string name="settings_birthdays_notify_before_days_no">no</string>
+    <string name="settings_birthdays_notify_before_days_everyday" lng-aname="every_day" lng-apk="DeskClock" lng-bundle="sams-i9600-api-19">Everyday</string>
+    <string name="settings_birthdays_notify_example_fio">Alexander Sergeyevich Pushkin</string>
+    <string name="settings_birthdays_notify_example_date" tools:ignore="MissingTranslation,TypographyDashes">1799-05-26</string>
+    <!-- Logging -->
+    <string name="log_title">Event log</string>
+    <string name="log_enabled_label" lng-for-trans="Turn on">Enabled</string>
+    <string name="log_info_error">Error file or folder</string>
+    <string name="log_open">Open log</string>
+    <string name="log_clear">Clear log</string>
+    <string name="log_clear_confirm">Clear log?</string>
+    <string name="log_clear_ok">Event log successfully cleared</string>
+    <!-- Database -->
+    <string name="database">Database</string>
+    <string name="database_current_category">Current state</string>
+    <string name="database_current_version_label">Version</string>
+    <string name="database_custom_category" lng-value-ru="Пользовательское расположение">Custom location</string>
+    <string name="database_custom_enabled_label" lng-for-trans="Turn on">Enabled</string>
+    <string name="database_cannot_open_or_create">Failed open or create database</string>
+    <!-- Permissions -->
+    <string name="permissions">Permissions</string>
+    <string name="permissions_manufacturer">Manufacturer</string>
+    <string name="permissions_manufacturer_unknown">Unknown</string>
+    <string name="permissions_autostart">Autostart</string>
+    <string name="permissions_show_on_lock_screen">Show on Lock screen</string>
+    <string name="permissions_display_popup_windows">Display popup-windows</string>
+    <string name="permissions_set">Set</string>
+    <!-- About -->
+    <string name="about" lng-for-trans="About app">About</string>
+    <string name="app_version_label" lng-for-trans="Version">Version</string>
+    <string name="app_version_unknown">unknown version</string>
+    <string name="developer_label" lng-aname="details_developer_links" lng-apk="Phonesky" lng-bundle="sams-i9600-api-19">Developer</string>
+    <string name="email_label" lng-aname="device_admin_label" lng-apk="Email" lng-bundle="sams-i9600-api-19">Email</string>
+    <!-- Birthday -->
+    <string name="birthday" lng-for-trans="The birthday">Birthday</string>
+    <string name="birthdays">Birthdays</string>
+    <string name="birthdays_empty">(empty)</string>
+    <string name="birthdays_no_permission_to_contacts">(no permission to contacts)</string>
+
+    <!-- Task -->
+    <string name="task">Task</string>
+    <string name="tasks">Tasks</string>
+    <string name="tasks_empty">(empty)</string>
+    <string name="task_add">Add task</string>
+    <string name="task_deleted" lng-aname="deleted_message" lng-apk="DeskClock" lng-bundle="sams-i9600-api-19">Deleted</string>
+    <string name="task_delete_confirm">Delete task?</string>
+    <string name="task_notify_category">Notification</string>
+    <string name="task_notify_enabled" lng-for-trans="Turn on">Enabled</string>
+    <string name="task_notify_date">Start date</string>
+    <string name="task_notify_time">Start time</string>
+    <string name="task_priority">Priority</string>
+    <string name="task_set_for_fmt">%s</string>
+    <!-- Alarms -->
+    <string name="alarm" lng-for-trans="Alarm clock">Alarm</string>
+    <string name="alarms" lng-for-trans="Alarm clocks">Alarms</string>
+    <string name="alarms_empty">(empty)</string>
+    <string name="alarm_add" lng-aname="add_alarm" lng-apk="DeskClock" lng-bundle="sams-i9600-api-19">Add alarm</string>
+    <string name="alarm_alert_activity" lng-aname="alert" lng-apk="DeskClock" lng-bundle="sams-i9600-api-19">Alert</string>
+    <string name="alarm_start_date">Start date</string>
+    <string name="alarm_snooze_label" lng-aname="alarm_alert_snooze_text" lng-apk="DeskClock" lng-bundle="sams-i9600-api-19">Snooze</string>
+    <string name="alarm_snooze_off">no</string>
+    <string name="alarm_autostop_label" lng-aname="auto_silence_title" lng-apk="DeskClock" lng-bundle="sams-i9600-api-19">Auto-stop</string>
+    <string name="alarm_autostop_off">no</string>
+    <string name="alarm_test_with_screen_lock" tools:ignore="MissingTranslation">Test with screen lock</string>
+    <string name="alarm_press_lock_key_after_fmt" tools:ignore="MissingTranslation">Press lock key and in %d seconds alert will work</string>
+    <string name="alarm_deleted" lng-apk="DeskClock" lng-bundle="sams-i9600-api-19">Alarm deleted</string>
+    <string name="alarm_delete_confirm" lng-aname="delete_alarm_confirm" lng-apk="DeskClock" lng-bundle="sams-i9600-api-19">Delete alarm?</string>
+    <string name="alarm_set_for_fmt" lng-value-ru="Будильник сработает через %s" lng-value-uk="Будильник спрацює через %s" lng-value-en="Alarm set for %s from now" tools:ignore="MissingTranslation">%s</string>
+    <!-- Delay -->
+    <string name="alarm_alert_delay_label">Delay</string>
+    <string name="alarm_alert_delay_off">no</string>
+    <!-- Voice -->
+    <string name="voice">Voice</string>
+    <string name="alarm_voice_flag" lng-for-trans="Turn on">Enabled</string>
+    <string name="alarm_voice_pattern">Pattern</string>
+    <string name="alarm_voice_result">Result</string>
+    <string name="alarm_voice_repeat_label" lng-value-ru="Повторzть через">Repeat after</string>
+    <string name="alarm_voice_repeat_off">no</string>
+    <!-- Vibrate -->
+    <string name="vibration">Vibration</string>
+    <string name="alarm_vibrate_flag" lng-for-trans="Turn on">Enabled</string>
+    <string name="alarm_vibrate_pattern_label">Pattern</string>
+    <!-- Sound -->
+    <string name="sound">Sound</string>
+    <string name="alarm_sound_flag" lng-for-trans="Turn on">Enabled</string>
+    <string name="alarm_fade_in_label" lng-for-trans="Increase sound" lng-value-ru="Нарастание громкости" lng-value-uk="Наростання гучності">Fade-in</string>
+    <string name="alarm_fade_in_no">no</string>
+    <string name="alarm_volume_label" lng-aname="alarm_volume_title" lng-apk="DeskClock" lng-bundle="sams-i9600-api-19" lng-value-ru="Громкость" lng-value-uk="Гучність" lng-value-en="Volume">Alarm volume</string>
+    <string name="alarm_volume_off" lng-aname="silent_alarm_summary" lng-apk="DeskClock" lng-bundle="sams-i9600-api-19">Silent</string>
+    <string name="folder_not_contain_sound_files">Folder does not contain sound files</string>
+    <string name="alarm_sound_file_default_text">Click and select sound file</string>
+    <string name="alarm_sound_folder_default_text">Click and select folder of sound files</string>
+    <string name="cannot_load_sound_file">Cannot load sound file</string>
+    <!-- Email -->
+    <string name="send_mail">Send mail</string>
+    <string name="no_email_clients_installed">no email clients</string>
+    <!-- File -->
+    <string name="folder">Folder</string>
+    <string name="folder_unspecified" lng-aname="wifi_unspecified" lng-apk="Settings" lng-bundle="sams-i9600-api-19">(unspecified)</string>
+    <string name="file">File</string>
+    <string name="select_folder">Select a folder</string>
+    <string name="folder_is_null">Select a folder</string>
+    <string name="folder_not_found" lng-for-trans="The folder is not found">Folder not found</string>
+    <string name="file_not_found" lng-for-trans="The file is not found">File not found</string>
+    <string name="cannot_delete_file" lng-for-trans="Cannot delete the file">Cannot delete file</string>
+
+</resources>
